@@ -1,4 +1,4 @@
-BodyId
+#body_id
 ======
 
 ![body_id logo](https://raw.github.com/the4dpatrick/body-id-gem/master/images/body_id.png "body_id logo")
