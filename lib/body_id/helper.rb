@@ -5,7 +5,11 @@ module BodyId
     def body_id
       controller = controller_name.singularize.underscore
       action = action_name.underscore
-      "#{ controller }-#{ action }".gsub(/_/, '-')
+      body_id = "#{ controller }-#{ action }".gsub(/_/, '-')
+
+      # Controller declared instance variable
+      # or helper generated string
+      @body_id || body_id
     end
   end
 end

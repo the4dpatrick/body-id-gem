@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = BodyId::VERSION
   spec.authors       = ["Patrick Perey"]
   spec.email         = ["the4dpatrick@yahoo.com"]
-  spec.summary       = %q{Create a custom body_id selector from the controller and action name}
-  spec.description   = %q{Create a custom body_id selector from the controller and action name}
+  spec.summary       = %q{Create a custom body_id selector from your controller and action names}
+  spec.description   = %q{Insert body_id within your application layout's <body> tag. Pages#Index becomes "#page-index" You can overwrite the generated ID with a custom ID from within your controller's action by set @body_id to your desired ID}
   spec.homepage      = "https://github.com/the4dpatrick/body-id-gem"
   spec.license       = "MIT"
 
