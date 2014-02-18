@@ -1,7 +1,7 @@
 BodyId
 ======
 
-![body_id logo](https://raw.github.com/the4dpatrick/body-id-gem/images/body_id.png "body_id logo")
+![body_id logo](https://raw.github.com/the4dpatrick/body-id-gem/master/images/body_id.png "body_id logo")
 
 Create a custom `body_id` from your controller and action names.
 ```
@@ -26,9 +26,9 @@ Or install it yourself as:
 Usage
 -----
 
-In your `application.html.erb`, or other layout files set, `body_id` as the body tag's ID
+In your `application.html.erb`, or other layout files, set `body_id` as the body tag's ID
 ###ERB
-```erb
+```html
 ...
 </head>
     <body id= <%= body_id %>>
